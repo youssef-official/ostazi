@@ -1,0 +1,1 @@
+sed -i 's/var showBarcodeScannerModal/var showBarcodeScannerModal by remember { mutableStateOf(false) }\n    var groupForQuickAttendance by remember { mutableStateOf<GroupEntity?>(null) }/g' app/src/main/java/com/example/ui/screens/DashboardScreen.kt

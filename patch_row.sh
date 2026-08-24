@@ -1,0 +1,1 @@
+sed -i 's/Row(verticalAlignment = Alignment.CenterVertically) {/Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.clip(RoundedCornerShape(8.dp)).clickable { onStudentsClick() }.padding(4.dp)) {/g' app/src/main/java/com/example/ui/screens/DashboardScreen.kt

@@ -1,0 +1,7 @@
+{
+  "name": "أستاذي +",
+  "description": "تطبيق أستاذي + لإدارة المجموعات والطلاب، متابعة الحضور والواجبات والاختبارات، والمدفوعات والجدول الأسبوعي",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

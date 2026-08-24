@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "486342937932",
+    "project_id": "teacher-assistant-cc415",
+    "storage_bucket": "teacher-assistant-cc415.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486342937932:android:ea56f91003fa313d6c13e9",
+        "android_client_info": {
+          "package_name": "com.aistudio.teacherassistant.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSjQSIKBM0kU8cdVnKzdOBY_clFZBzOtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

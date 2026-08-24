@@ -1,0 +1,4 @@
+sed -i 's/val todayDate = viewModel.getTodayDateString()/val todayDate = viewModel.todayDateString/g' app/src/main/java/com/example/ui/components/QuickAttendanceModal.kt
+sed -i 's/val allSessions by viewModel.allSessions.collectAsStateWithLifecycle()/val attendanceList by viewModel.attendanceForToday.collectAsStateWithLifecycle()/g' app/src/main/java/com/example/ui/components/QuickAttendanceModal.kt
+sed -i 's/val studentSession = allSessions.find { it.studentId == student.id && it.date == todayDate }/val studentSession = attendanceList.find { it.studentId == student.id }/g' app/src/main/java/com/example/ui/components/QuickAttendanceModal.kt
+sed -i 's/import androidx.lifecycle.compose.collectAsStateWithLifecycle/import androidx.lifecycle.compose.collectAsStateWithLifecycle\nimport com.example.ui.screens.EvaluationPill/g' app/src/main/java/com/example/ui/components/QuickAttendanceModal.kt
